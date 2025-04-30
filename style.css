@@ -1,0 +1,82 @@
+body {
+    background-color: #397AD2;
+    color: #FFFFFF;
+    font-family: Segoe UI This, sans-serif; /* Changed font to Calibri */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#container {
+    padding: 50px;
+}
+
+#sad {
+    font-size: 200px;
+    margin: 0px;
+}
+
+#info-list {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+img {
+    padding-right: 20px;
+}
+
+#info-list li {
+    padding: 0px;
+    margin: 0px;
+    display: block
+}
+
+#info-superlist {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+}
+#info-superlist li {
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+#info-superlist li ul {
+    display: inline;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#error-div {
+    width: 66%;
+}
+
+#error {
+    font-size: 50px;
+
+}
+#progress {
+    font-size: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
